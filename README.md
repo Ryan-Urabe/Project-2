@@ -9,13 +9,13 @@ Our main code can be found in the "ETL_Mini_Project_AHamilton_RUrabe.ipynb" file
 ### The Process:
 
 #### First Part --> Turned "Crowdfunding" dataframe into a cleaned version labelled "Campaign"
-Read crowdfunding excel file in python and split category & sub-category column in seperate columns. 
+Read crowdfunding excel file in python and split category & sub-category column in seperate columns. \
 Created two dataframes for category and subcategory that held ids for each unique category and subcategory. 
 Exported these dataframes into their own csv.
 Renamed crowdfunding df to campaign and renamed columns.
 Changed value type of columns.
 Made date columns into readable days.
-Merged category and subcategory dataframes on campaign dataframe. 
+Merged category and subcategory dataframes on campaign dataframe.
 Removed unecessary columns.
 Exported campaign dataframe to csv file.
 
