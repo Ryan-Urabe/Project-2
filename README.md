@@ -3,7 +3,7 @@
 ### Intro
 This is the repository for the ETL mini project (Project 2). In this repository, we (Alex H. and Ryan U.) display our proficiency with extracting, transforming, and loading data using python knowledge and an SQL database. 
 
-Our main code can be found in the "ETL_Mini_Project_AHamilton_RUrabe.ipynb" file. The excel worksheet outputs, ERD, and SQL query can be found in the "Resources" folder.
+Our main code can be found in the "ETL_Mini_Project_AHamilton_RUrabe.ipynb" file. The excel worksheet outputs, ERD, and SQL query ("crowdfunding_db_schema.sql") can be found in the "Resources" folder.
 
 
 ### The Process:
