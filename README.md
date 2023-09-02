@@ -1,8 +1,8 @@
 # Project-2
 
-### Category, Subcategory and Campaign:
+### Category, Subcategory and Campaign DataFrames:
 
 
-### Contacts, ERD, and SQL:
+### Contacts Dataframe, ERD, and SQL:
 
 
