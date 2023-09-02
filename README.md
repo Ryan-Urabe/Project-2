@@ -1,21 +1,19 @@
 # Project-2
 
 ### Intro
+This is the repository for the ETL mini project (Project 2). In this repository, we (Alex H. and Ryan U.) display our proficiency with extracting, transforming, and loading data using python knowledge and an SQL database. 
+
+Our main code can be found in the "ETL_Mini_Project_AHamilton_RUrabe.ipynb" file. The excel worksheet outputs, ERD, and SQL query can be found in the "Resources" folder.
 
 
-
-### Category, Subcategory and Campaign DataFrames:
-
-
-### Contacts Dataframe, ERD, and SQL:
-
+### The Process:
 
 
 
 
 Data Extraction and Transformation: Python
 
-Data Import and Extraction:
+Data Import and Extraction: 
 
 Utilized Pandas library to import contact information from an Excel file.
 Extracted relevant details from the "contact_info" column using JSON decoding.
