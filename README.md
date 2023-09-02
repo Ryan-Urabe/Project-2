@@ -8,15 +8,25 @@ Our main code can be found in the "ETL_Mini_Project_AHamilton_RUrabe.ipynb" file
 
 ### The Process:
 
+#### First Part --> Turned "Crowdfunding" dataframe into a cleaned version labelled "Campaign"
+Read crowdfunding excel file in python and split category & sub-category column in seperate columns. 
+Created two dataframes for category and subcategory that held ids for each unique category and subcategory. 
+Exported these dataframes into their own csv.
+Renamed crowdfunding df to campaign and renamed columns.
+Changed value type of columns.
+Made date columns into readable days.
+Merged category and subcategory dataframes on campaign dataframe. 
+Removed unecessary columns.
+Exported campaign dataframe to csv file.
 
-
-
+#### Second Part --> Cleaned contacts file and loaded data to SQL
 Data Extraction and Transformation: Python
 
-Data Import and Extraction: 
+Data Import and Extraction:
 
 Utilized Pandas library to import contact information from an Excel file.
 Extracted relevant details from the "contact_info" column using JSON decoding.
+
 Data Transformation and Cleaning:
 
 Split full names into first and last names, enhancing data structure.
@@ -27,21 +37,26 @@ Database Schema Design:
 
 Developed a well-structured database schema using SQL.
 Defined primary keys and appropriate data types for each table.
+
 Data Integrity and Relationships:
 
 Established essential foreign key constraints to ensure data accuracy.
 Ensured a seamless connection between tables for meaningful analysis.
+
 Data Import and Formatting:
 
 Employed SQL's \copy command to import CSV data into tables.
 Overcame data formatting challenges by aligning column order and values.
+
 Data Querying and Exploration:
 
 Practiced SQL querying skills to retrieve specific data.
 Employed the SELECT statement with the WHERE clause to filter results.
+
 Data Quality Enhancement:
 
 Adjusted data types for better precision, especially in decimal values.
+
 Conclusion and Next Steps:
 
 Through a collaborative effort of Python and SQL skills, we've crafted a data-driven workflow. Python facilitated efficient data extraction, transformation, and organization, while SQL empowered us to create a structured database, enforce relationships, import data, and extract meaningful insights. With this foundation, we're well-equipped to delve into deeper analysis and uncover valuable insights to inform decision-making.
